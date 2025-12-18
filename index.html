@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of PV Abhijith, a Software Developer Intern and Python Expert specializing in Flutter and Web Development.">
+    <title>PV Abhijith | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        dark: '#0f172a',
+                        glass: 'rgba(30, 41, 59, 0.7)',
+                        accent: '#38bdf8', // Light Blue
+                        primary: '#a855f7', // Purple
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #38bdf8, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-accent selection:text-dark">
+
+    <nav class="fixed w-full z-50 transition-all duration-300 glass-card border-b-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold tracking-tighter hover:opacity-80 transition">
+                        PV<span class="text-accent">ABHIJITH</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-sm font-medium hover:text-accent transition">About</a>
+                    <a href="#experience" class="text-sm font-medium hover:text-accent transition">Experience</a>
+                    <a href="#projects" class="text-sm font-medium hover:text-accent transition">Projects</a>
+                    <a href="#skills" class="text-sm font-medium hover:text-accent transition">Skills</a>
+                </div>
+                <div class="hidden md:flex">
+                    <a href="mailto:abhijithpv7777@gmail.com" class="px-5 py-2 rounded-full bg-gradient-to-r from-accent to-primary text-white font-semibold text-sm hover:shadow-lg hover:shadow-accent/25 transition transform hover:-translate-y-0.5">
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl -z-10"></div>
+
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-accent font-medium mb-4 tracking-widest text-sm uppercase">Hello, I'm</p>
+            <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-tight">
+                PV <span class="text-gradient">Abhijith</span>
+            </h1>
+            <h2 class="text-2xl md:text-3xl text-slate-400 font-light mb-8">
+                Software Developer Intern & Python Expert
+            </h2>
+            <p class="text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                A highly motivated individual bridging the gap between design and functionality. 
+                Specializing in Python, Flutter, and building scalable web applications.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#projects" class="px-8 py-3 rounded-full border border-slate-600 hover:border-accent hover:text-accent transition duration-300">
+                    View Work
+                </a>
+                <a href="#contact" class="px-8 py-3 rounded-full bg-slate-800 hover:bg-slate-700 transition duration-300">
+                    Contact Me
+                </a>
+            </div>
+            
+            <div class="mt-12 flex justify-center space-x-6 text-2xl text-slate-500">
+                <a href="https://github.com/abhijith-7777" class="hover:text-white transition" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abhijithpv7777" class="hover:text-blue-500 transition" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:abhijithpv7777@gmail.com" class="hover:text-red-400 transition" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-16 text-center"><span class="border-b-4 border-accent pb-2">Experience</span></h2>
+            
+            <div class="relative border-l-2 border-slate-700 ml-4 md:ml-1/2 space-y-12">
+                
+                <div class="relative pl-8 md:pl-0">
+                    <div class="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-accent border-4 border-dark"></div>
+                    
+                    <div class="md:grid md:grid-cols-2 md:gap-12">
+                        <div class="md:text-right md:pr-12 mb-2 md:mb-0">
+                            <h3 class="text-xl font-bold text-white">Software Developer Intern</h3>
+                            <h4 class="text-accent font-medium">CourtClick, Digilaw Legal Software</h4>
+                            <p class="text-sm text-slate-500 mt-1">May 2025 - Present | Kochi, India</p>
+                        </div>
+                        <div class="glass-card p-6 rounded-xl hover:bg-slate-800/50 transition">
+                            <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                                <li>Collaborated with senior developers to build and debug web/mobile apps.</li>
+                                <li>Utilized GitHub for project collaboration, PRs, and code reviews.</li>
+                                <li>Worked on live projects, contributing effectively to team goals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative pl-8 md:pl-0">
+                    <div class="absolute -left-[9px] top-0 w-5 h-5 rounded-full bg-primary border-4 border-dark"></div>
+                    
+                    <div class="md:grid md:grid-cols-2 md:gap-12">
+                        <div class="md:text-right md:pr-12 mb-2 md:mb-0">
+                            <h3 class="text-xl font-bold text-white">Python Web Development Expert</h3>
+                            <h4 class="text-primary font-medium">Luminar Technolab</h4>
+                            <p class="text-sm text-slate-500 mt-1">Nov 2023 - July 2024</p>
+                        </div>
+                        <div class="glass-card p-6 rounded-xl hover:bg-slate-800/50 transition">
+                            <ul class="list-disc list-inside text-slate-300 space-y-2 text-sm">
+                                <li>Gained comprehensive knowledge in Python programming and OOP.</li>
+                                <li>Developed proficiency in Python Django Framework.</li>
+                                <li>Built hands-on projects applying real-world tech skills.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Featured <span class="text-gradient">Projects</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-2xl hover:shadow-primary/20 transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-indigo-900 to-purple-900 flex items-center justify-center">
+                        <i class="fas fa-tshirt text-6xl text-white/20 group-hover:text-white/40 transition transform group-hover:scale-110"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold text-white">Clothing Shopping Web App</h3>
+                            <div class="flex space-x-2">
+                                <span class="px-3 py-1 text-xs rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/30">Flutter</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-green-500/20 text-green-300 border border-green-500/30">PostgreSQL</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-400 mb-6 text-sm">
+                            A full-featured online clothing store featuring product listings, search/filtering, shopping cart functionality, and secure checkout. Includes responsive UI and user registration.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-accent hover:text-white font-medium transition">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-2xl hover:shadow-accent/20 transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-slate-800 to-cyan-900 flex items-center justify-center">
+                        <i class="fas fa-home text-6xl text-white/20 group-hover:text-white/40 transition transform group-hover:scale-110"></i>
+                    </div>
+                    <div class="p-8">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold text-white">Online Rental System</h3>
+                            <div class="flex space-x-2">
+                                <span class="px-3 py-1 text-xs rounded-full bg-yellow-500/20 text-yellow-300 border border-yellow-500/30">Python</span>
+                                <span class="px-3 py-1 text-xs rounded-full bg-orange-500/20 text-orange-300 border border-orange-500/30">MySQL</span>
+                            </div>
+                        </div>
+                        <p class="text-slate-400 mb-6 text-sm">
+                            Comprehensive web platform for booking cars and houses. Features robust user authentication, a dynamic booking system, and integrated payment gateways.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-accent hover:text-white font-medium transition">
+                            View Project <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Technical <span class="text-gradient">Arsenal</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-code text-accent mr-3"></i> Programming
+                    </h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">Python</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">Flutter</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">Next.js</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">JavaScript</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">SQL</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-accent transition border border-slate-700">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="glass-card p-8 rounded-2xl">
+                    <h3 class="text-xl font-semibold mb-6 flex items-center">
+                        <i class="fas fa-tools text-primary mr-3"></i> Tools & Specialties
+                    </h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">AWS Cloud</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">Web Scraping</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">AI Development</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">GitHub</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">PostgreSQL</span>
+                        <span class="px-4 py-2 bg-slate-800 rounded-lg text-sm hover:text-primary transition border border-slate-700">Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900/50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+             <div class="inline-block p-1 rounded-full bg-gradient-to-r from-accent to-primary mb-8">
+                <div class="bg-dark rounded-full px-6 py-2">
+                    <span class="text-sm font-bold uppercase tracking-wider">Education</span>
+                </div>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-white mb-2">Bachelor of Computer Application (BCA)</h3>
+            <p class="text-slate-400 mb-6">Bangalore University | 2020 - 2023</p>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 text-sm text-slate-400">
+                <div class="glass-card p-4 rounded-lg">AWS Academy Cloud Foundations</div>
+                <div class="glass-card p-4 rounded-lg">Data Science (Skill Vertex)</div>
+                <div class="glass-card p-4 rounded-lg">Digital Marketing (Google)</div>
+                <div class="glass-card p-4 rounded-lg">Data Visualization (Tata)</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="border-t border-slate-800 bg-dark py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Let's work together.</h2>
+            <p class="text-slate-400 mb-8">Currently open for new opportunities in Software Development.</p>
+            <a href="mailto:abhijithpv7777@gmail.com" class="text-xl text-accent font-semibold hover:underline">
+                abhijithpv7777@gmail.com
+            </a>
+            <div class="mt-4 text-slate-500">
+                <p>Kannur, India | +91 7907545183</p>
+            </div>
+            <div class="mt-12 text-sm text-slate-600">
+                &copy; 2025 PV Abhijith. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
